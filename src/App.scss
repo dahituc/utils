@@ -1,0 +1,29 @@
+@use 'scss-reset/reset';
+
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;700;800&display=swap');
+
+
+$margin: 16px;
+
+html {
+    font-family:'Maven Pro', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-kerning: none;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    font-kerning: normal;
+    line-height: 1.5;
+    margin-bottom: $margin;
+}
+
+#app {
+    padding: $margin;
+    overflow-x: hidden;
+    overflow-y: auto;
+
+    
+
+}
